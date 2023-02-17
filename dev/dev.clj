@@ -29,10 +29,19 @@
    [net.wikipunk.rdf.rdfs :as rdfs]
    [net.wikipunk.rdf.owl :as owl]
    [net.wikipunk.rdf.schema :as schema]
-   [net.wikipunk.temple :as temple]   
+   [net.wikipunk.rdf.db]
+   [net.wikipunk.rdf.db.alter]
+   [net.wikipunk.rdf.db.attr]
+   [net.wikipunk.rdf.db.bootstrap]
+   [net.wikipunk.rdf.db.cardinality]
+   [net.wikipunk.rdf.db.entity]
+   [net.wikipunk.rdf.db.excise]
+   [net.wikipunk.rdf.db.install]
+   [net.wikipunk.rdf.db.part]
+   [net.wikipunk.rdf.db.type]
+   [net.wikipunk.rdf.db.unique]
    [zprint.core :as zprint]
-   [net.wikipunk.db.boot]
-   [net.wikipunk.rdf.db])
+   [net.wikipunk.db.boot])
   (:refer-clojure :exclude [isa? descendants parents ancestors]))
 
 (set-init
