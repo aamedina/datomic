@@ -1,5 +1,5 @@
 # net.wikipunk/db
-A RDF vocabulary Datomic
+A vocabulary for Datomic.
 
 ``` clojure
 {:rdfa/prefix "db"
