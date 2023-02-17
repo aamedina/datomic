@@ -1,5 +1,10 @@
 # net.wikipunk/db
-A new RDF vocabulary for wikipunk.net
+A RDF vocabulary Datomic
+
+``` clojure
+{:rdfa/prefix "db"
+ :rdfa/uri    "https://wikipunk.net/db/"}
+```
 
 ## Usage
 
