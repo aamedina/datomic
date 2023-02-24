@@ -1,4 +1,4 @@
-# net.wikipunk/db
+# net.wikipunk/datomic
 A vocabulary for Datomic.
 
 ``` clojure
